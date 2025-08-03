@@ -15,7 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
       mobileMenuBtn.setAttribute('aria-expanded', 'false');
     });
   });
-
+// Check for WebGL support
+if (!WEBGL.isWebGLAvailable()) {
+  document.getElementById('3d-designer').innerHTML = 
+    '<p>Try our simplified 2D planner instead</p>';
+}
   // Header scroll effect
   const header = document.querySelector('.header');
   window.addEventListener('scroll', function() {
