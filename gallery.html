@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Work | It's Showtime Inc.</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="gallery-page">
+  <header class="header">
+    <div class="container">
+      <a href="/" class="logo">
+        <span class="logo-main">It's Showtime</span>
+        <span class="logo-sub">Inc.</span>
+      </a>
+      <nav class="nav">
+        <button class="mobile-menu-btn" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+        <ul class="nav-list">
+          <li><a href="/">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html" class="btn-contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="glass-card">
+        <h1>Our Portfolio</h1>
+        <p>Explore our premium AV installations in Orange and LA Counties</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <div class="container">
+      <div class="glass-card">
+        <h2>Home Theater Installations</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item" data-modal="theater-1">
+            <img src="images/projects/theater-1.jpg" alt="Luxury Home Theater">
+            <div class="overlay">
+              <h3>Beverly Hills Cinema</h3>
+              <p>Full 4K Dolby Atmos Theater</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-modal="theater-2">
+            <img src="images/projects/theater-2.jpg" alt="Modern Home Theater">
+            <div class="overlay">
+              <h3>Newport Beach Media Room</h3>
+              <p>8-Seat Theater with Acoustic Treatment</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-modal="theater-3">
+            <img src="images/projects/theater-3.jpg" alt="Custom Home Theater">
+            <div class="overlay">
+              <h3>Hollywood Hills Theater</h3>
+              <p>Custom Star Ceiling Installation</p>
+            </div>
+          </div>
+          <!-- Add more gallery items as needed -->
+        </div>
+      </div>
+
+      <div class="glass-card">
+        <h2>Whole-Home Audio Systems</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item" data-modal="audio-1">
+            <img src="images/projects/audio-1.jpg" alt="Multi-Room Audio">
+            <div class="overlay">
+              <h3>Laguna Beach Estate</h3>
+              <p>12-Zone Audio System</p>
+            </div>
+          </div>
+          <div class="gallery-item" data-modal="audio-2">
+            <img src="images/projects/audio-2.jpg" alt="Outdoor Audio">
+            <div class="overlay">
+              <h3>Malibu Outdoor System</h3>
+              <p>Weatherproof Speakers</p>
+            </div>
+          </div>
+          <!-- Add more gallery items as needed -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal Structure -->
+  <div class="modal-overlay" id="image-modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <img id="modal-image" src="" alt="" class="modal-img">
+      <div class="modal-info">
+        <h2 id="modal-title"></h2>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h3>It's Showtime Inc.</h3>
+          <p>Premium home theater and automation specialists serving Orange and LA Counties for 25 years.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@showtimeav.com</li>
+            <li><i class="fas fa-map-marker-alt"></i> Serving Orange & LA Counties</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 It's Showtime Inc. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+  </html>
