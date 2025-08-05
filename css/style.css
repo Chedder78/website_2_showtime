@@ -202,7 +202,7 @@ h3 {
 .hero {
   height: 100vh;
   min-height: 600px;
-  background: url('../images/hero-home-theater.jpg') no-repeat center center/cover;
+  background: url('logo.jpg') no-repeat center center/cover;
   display: flex;
   align-items: center;
   position: relative;
